@@ -1,6 +1,5 @@
 package Task1;
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -91,6 +90,8 @@ public class Game {
     }
 
     public void start() throws InterruptedException {
+
+        System.out.println("ПРАВИЛА: слово содежрит русские буквы. всего 6 жизней.");
         Scanner sc = new Scanner(System.in);
 
         while (hp != 0 && !WORD.equals(currentStateOfWord)) {
